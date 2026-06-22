@@ -1,0 +1,19 @@
+
+ssh -T git@github.com
+
+cd ~/Reposits
+
+git clone git@github.com:rmd-risko/repo-test.git
+cd ~/Reposits/repo-test
+
+git clone git@github.com:rmd-risko/mhscripts.git
+cd ~/Reposits/mhscripts
+
+---
+
+git pull origin main
+
+git add *
+git commit -m "commit"
+git push origin main
+
